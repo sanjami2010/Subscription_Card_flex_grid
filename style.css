@@ -1,0 +1,73 @@
+.wrapper{
+  width: 900px;
+  height: 800px;
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .gridi{
+    width:50%;
+    height:40%;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+         "a a"
+         "b c";
+   }
+  .one{
+    grid-area: a;
+    padding-left: 20px;
+    
+  }
+  p{
+    font-size: 16px;
+    color: hsl(71, 73%, 54%);
+
+  }
+  p.gry{
+    color: gainsboro;
+    font-size: 14px;
+    padding-right: 20px;
+  }
+  .two{
+    grid-area: b;
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+    color: white;
+
+  }
+
+  .three{
+    grid-area: c;
+    background-color: hsl(179, 58%, 59%);
+    padding: 20px;
+    color: white;
+  }
+  li{
+    list-style-type: none;
+    font-size: 12px;
+    color: hsl(179, 26%, 54%);
+    white-space: nowrap;
+    
+    }
+  .grn{
+    color:   hsl(179, 62%, 43%);
+    
+  }
+  .wgt{
+     font-size: 150%;
+  }
+  .sml{
+    font-size: 14px;
+  }
+  button{
+    border-radius: 5px;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+     color: white;
+     font-size: 14px;
+     margin:auto;
+  }
