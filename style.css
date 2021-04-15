@@ -45,6 +45,7 @@
     background-color: hsl(179, 58%, 59%);
     padding: 20px;
     color: white;
+    padding-left:30px;
   }
   li{
     list-style-type: none;
